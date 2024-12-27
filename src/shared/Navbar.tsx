@@ -1,7 +1,7 @@
-import React, { useState } from 'react'
 import { CiMenuFries } from 'react-icons/ci'
 import { Link } from 'react-router-dom'
 import Logo from '../assets/logo.svg'
+import { useState} from "react";
 
 type NavbarLink = {
   name: string
@@ -10,7 +10,7 @@ type NavbarLink = {
 
 type NavbarProps = {
   disabled?: boolean
-  type?: string
+  type?: 'button'
 }
 
 const navbarData: { links: NavbarLink[] } = {

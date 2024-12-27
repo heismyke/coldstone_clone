@@ -16,7 +16,7 @@ function Header() {
         </p>
         <img src="../../public/icecream.png" alt="coldstone thumbnail" className="absolute -bottom-20 w-[300px] h-[250px]"/>
       </div>
-      <Navbar />
+      <Navbar/>
     </div>
   )
 }
