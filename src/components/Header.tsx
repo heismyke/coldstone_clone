@@ -1,4 +1,5 @@
 import Navbar from '@/shared/Navbar'
+import IceCream from '/public/icecream.png'
 
 function Header() {
   return (
@@ -14,7 +15,7 @@ function Header() {
           ORDER your Delicious Ice Cream directly from our stores and have it DELIVERED to your
           doorstep for FREE!
         </p>
-        <img src="../../public/icecream.png" alt="coldstone thumbnail" className="absolute -bottom-20 w-[300px] h-[250px]"/>
+        <img src={IceCream} alt="coldstone thumbnail" className="absolute -bottom-20 w-[300px] h-[250px]"/>
       </div>
       <Navbar/>
     </div>
